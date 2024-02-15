@@ -41,20 +41,36 @@ export default function AboutUs() {
 
               <div className="grid grid-cols-2 md:grid-cols-4">
                 <div className="border p-4 flex flex-col justify-center items-center">
-                    <img src="/images/about/quick.webp" alt="quick" className="w-16 h-16"/>
-                    <p className="text-gray-500">Quick</p>
+                  <img
+                    src="/images/about/quick.webp"
+                    alt="quick"
+                    className="w-16 h-16"
+                  />
+                  <p className="text-gray-500">Quick</p>
                 </div>
                 <div className="border p-4 flex flex-col justify-center items-center">
-                    <img src="/images/about/warranty.webp" alt="warranty" className="w-16 h-16"/>
-                    <p className="text-gray-500">Warranty with all jobs</p>
+                  <img
+                    src="/images/about/warranty.webp"
+                    alt="warranty"
+                    className="w-16 h-16"
+                  />
+                  <p className="text-gray-500">Warranty with all jobs</p>
                 </div>
                 <div className="border p-4 flex flex-col justify-center items-center">
-                    <img src="/images/about/price.webp" alt="price" className="w-16 h-16"/>
-                    <p className="text-gray-500">Best Price</p>
+                  <img
+                    src="/images/about/price.webp"
+                    alt="price"
+                    className="w-16 h-16"
+                  />
+                  <p className="text-gray-500">Best Price</p>
                 </div>
                 <div className="border flex flex-col justify-center items-center p-4">
-                    <img src="/images/about/house.webp" alt="quihouseck" className="w-16 h-16"/>
-                    <p className="text-gray-500">Hassle free service</p>
+                  <img
+                    src="/images/about/house.webp"
+                    alt="quihouseck"
+                    className="w-16 h-16"
+                  />
+                  <p className="text-gray-500">Hassle free service</p>
                 </div>
               </div>
             </div>

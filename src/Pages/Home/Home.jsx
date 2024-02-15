@@ -7,10 +7,7 @@ import Footer from "../../Components/Footer";
 export default function Home() {
   return (
     <>
-      <Header
-        heroBg="bg-headerBg"
-        bgHeight="h-full"
-      />
+      <Header heroBg="bg-headerBg" bgHeight="h-full" />
 
       <div className="w-11/12 lg:w-4/5 mx-auto py-10 lg:py-20">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-9">
@@ -118,7 +115,7 @@ export default function Home() {
 
       <Brands />
       <CustomerSays />
-      <Footer/>
+      <Footer />
     </>
   );
 }
