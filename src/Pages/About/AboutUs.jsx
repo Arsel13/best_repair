@@ -1,6 +1,6 @@
 import React from "react";
-import Header from "../../Components/Header";
 import Brands from "../../Components/Brands";
+import Header from "../../Components/Header";
 import { GoStarFill } from "react-icons/go";
 
 export default function AboutUs() {
