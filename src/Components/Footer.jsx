@@ -1,8 +1,6 @@
-// @ts-nocheck
 import React from "react";
 import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
-import { FaLinkedinIn } from "react-icons/fa";
 import { FaInstagram, FaPinterest } from "react-icons/fa6";
 export default function Footer() {
   return (
