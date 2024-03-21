@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from "swiper/modules";
 import "swiper/css";
@@ -18,7 +18,6 @@ export default function CustomerSays() {
           </h2>
           <div className="bg-yellow-400 w-28 h-1"></div>
         </div>
-
         <Swiper
           className="mySwiper"
           spaceBetween={20}
