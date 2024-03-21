@@ -10,7 +10,6 @@ export default function Brands() {
           </h2>
           <div className="bg-yellow-400 w-28 h-1"></div>
         </div>
-
         <div className="pt-10">
           <div className="bg-white grid grid-cols-2 md:grid-cols-4">
             <div className="p-5 border-b border-r flex justify-center">
