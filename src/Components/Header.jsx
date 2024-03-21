@@ -18,7 +18,6 @@ export default function Header(props) {
           <Link to="/">
             <img src="/images/logo.webp" alt="logo" className="w-20 h-16" />
           </Link>
-
           <div className="hidden lg:flex gap-x-5 md:gap-x-10">
             <div className="flex gap-x-3">
               <div className="border-2 border-yellow-400 text-yellow-400 text-xl rounded-full p-2">
@@ -38,7 +37,6 @@ export default function Header(props) {
                 <p>contact@bestrepairs.com.au</p>
               </div>
             </div>
-
             <button
               className="text-yellow-400 font-medium bg-black bg-opacity-70 py-2 px-4 rounded-md 
             uppercase hover:bg-yellow-400 hover:bg-opacity-70 hover:text-white duration-200"
@@ -46,7 +44,6 @@ export default function Header(props) {
               Get a Quote
             </button>
           </div>
-
           <button
             className="text-yellow-400 text-2xl font-semibold border-2 border-yellow-400 p-1 
           rounded-md hover:bg-yellow-400 hover:text-white duration-200 block lg:hidden"
@@ -60,7 +57,6 @@ export default function Header(props) {
 
         <Navbar menu={menu} />
       </div>
-
       <HeroSection
         heroTitleOne={props.heroTitleOne}
         heroTitleTwo={props.heroTitleTwo}

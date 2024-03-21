@@ -19,7 +19,6 @@ export default function HeroSection(props) {
               getting the appliances repaired involved a lot of headache. We saw
               people being pushed to buy new products when they didn't need one
             </p>
-
             <button
               className="text-yellow-400 font-medium bg-black bg-opacity-70 py-2 px-4 rounded-md 
             uppercase hover:bg-yellow-400 hover:bg-opacity-70 hover:text-white duration-200 mt-4"
@@ -38,7 +37,6 @@ export default function HeroSection(props) {
           </div>
         )}
       </div>
-
       {location === "/" ? (
         <div
           className="bg-black bg-opacity-70 p-4 rounded-sm  flex xl:justify-between items-center 
