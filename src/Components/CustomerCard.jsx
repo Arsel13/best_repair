@@ -10,7 +10,6 @@ export default function CustomerCard() {
           className="w-20 h-20 rounded-full"
         />
       </div>
-
       <div className="pt-10 pb-8 lg:pt-20 lg:pb-14 px-5 lg:px-10 text-center space-y-5">
         <h2 className="text-white text-lg">
           Best Repairs is the friendliest and most efficient company I have ever
