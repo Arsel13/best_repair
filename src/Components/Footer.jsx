@@ -104,16 +104,13 @@ export default function Footer() {
             </div>
           </div>
         </div>
-
         <div className="w-1/2 mx-auto my-20">
           <div className="flex justify-between items-center ">
             <div>
               <FaTwitter className="text-xl text-white" />
             </div>
-           
           </div>
         </div>
-
         <div className="flex justify-center mt-4 text-white">
           © TurboSquid 2023
         </div>
